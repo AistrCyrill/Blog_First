@@ -6,10 +6,32 @@ $light: #9a9da4;
 $hightlight: #8bc6db;
 $border: #E9E9E9;
 $footer : #383838;
-* { box-sizing: border-box}
+* { 
+	box-sizing: border-box ;
+	margin: 0;
+	}
+	html {
+		height: 100%;
+	}
 body {
+	height: 100%;
 	background: whitesmoke;
 	font-family: 'Raleway', sans-serif;
+}
+.page-wrap {
+	min-height : 100%;
+	  margin-bottom: -142px; 
+
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 142px; 
+}
+.site-footer {
+  background: orange;
 }
 
 
@@ -28,8 +50,9 @@ body {
 	display: table;
 }
 
+
 .clearfix{
-	clear: both
+	clear: both;
 }
 h1 , h2 , h3, h4 , h5, h6 , p , ul , li {
 	color : $dark;
