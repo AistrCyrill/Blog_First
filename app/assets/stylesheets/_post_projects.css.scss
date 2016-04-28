@@ -1,0 +1,113 @@
+#post-wrapper {
+	padding : 3em 0 ;
+	.post {
+		text-align : center;
+		.date {
+			font-size : 0.9em;
+
+		}
+
+		h2 {
+			margin-bottom: 0;
+			text-align: center;
+			font-size: 2em;
+			text-transform: uppercase;
+			a {-moz-transition: color 0.2s 0.02s ease;
+ -o-transition: color 0.2s 0.02s ease;
+ -webkit-transition: color 0.2s 0.02s ease;
+ color:#222;
+				text-decoration: none;
+				color : $dark;
+				&:hover {
+					color : #ffeb3b ;
+				
+				}
+			}
+		}
+		hr {
+			margin : 4em auto ;
+			color : black ;
+		}
+	}
+}
+// Post Show
+
+#post_show_content
+{
+	header {
+		text-align:center;
+		.date {
+			font-size : 0.9em;
+			margin:0;
+		}
+		h1 {
+			margin: 0;
+		}
+	}
+		hr {
+			margin : 2em auto ;
+		}
+
+}
+#share_box {
+	text-align: center;
+	p{
+		padding : 0 0 1em 0;
+		margin: 0;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: $dark ;
+		font-size: 0.8em;
+	}
+	i {
+		color : $dark;
+		padding : 1em 1.5em;
+		&:hover  {
+			color : $hightlight ;
+			cursor : pointer ;
+		}
+	}
+}
+
+
+
+// Pagination
+.pagination:before,
+.pagination:after {
+	content :"";
+	display : table;
+}
+.pagination:after {
+	clear:box;
+}
+.pagination {
+	text-align : center;	
+	margin : 0 0 3em 0;
+	a, .previous_page, .current, .next_page {
+		padding : 0.75em 1em;
+		margin : 0  0.25em ;
+		border-radius: 0.15em;
+		line-height : 20px;
+		text-decoration: none ;
+		background : #ffff;
+		font-weight : 700;
+		font-size: 1em;
+		font-style: normal;
+		color : $dark;
+		&:hover {
+			background: $hightlight;
+			color : #ffffff; 
+		}
+	
+	}
+	.current {
+		background: $hightlight;
+		color : #fff;
+	}
+	.disabled {
+		color : #C0C0C0;
+		&:hover {
+			color : #C0C0C0;
+			background: #fff;
+			}	}
+}

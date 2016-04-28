@@ -1,12 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Blog</title>
+	<title>WEB-developer  &amp; Designer</title>
+	<meta name="description" content="">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/animate/animate.css">
+	
+<!-- 	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+ -->
+	<script src="libs/modernizr/modernizr.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+<div class="wrapper">
+		<div class="header">
+			<header id="main_navigation" class="clearfix">
+				<a href="index.html" class="name">  Something on the way </a>
+				<nav>
+					<a href="BLOG.html">Blog    </a>
+					<a href="index.html">Main   </a>
+					<a href="contact.html">Contact </a>
+				</nav>
+
+			</header>
+
+			<div class="wrapper-inner  wrapper-padding clearfix">
+				<div class="col-1 homepage_content">
+					<h2> About me </h2>
+					<hr>
+					<p>Brunch ennui pitchfork, bespoke fap blue bottle letterpress tacos sriracha before they sold out slow-carb mixtape. </p>
+					<p>Thundercats roof party health goth chartreuse bitters, locavore tacos microdosing yr sartorial meggings paleo wolf. Cliche vegan selfies farm-to-table, drinking vinegar dreamcatcher lo-fi keffiyeh salvia pabst cray jean shorts banh mi disrupt. Biodiesel cronut bespoke green juice four dollar toast actually. Whatever freegan ramps, pug flexitarian polaroid deep v tote bag cred sartorial small batch. Biodiesel fashion axe normcore tofu wolf yuccie pickled lomo PBR&B, vegan farm-to-table venmo 90's wayfarers. Food truck drinking vinegar vice ramps craft beer readymade.</p>
+				</div>
+				<div class="col-2 homepage_content">
+					<h2> What i do? </h2>
+					<hr>
+					<h3> Hard Work beats Talent </h3>
+					<p> And some textsome textAnd some text </p>
+					<h3> And some text </h3>
+					<p> And ssome text </p>
+
+
+				</div>
+
+				<div class="col-3 homepage_content">
+					<h2> What i built? </h2>
+					<hr>
+					<h3> List To Do </h3>
+					<p> Simple notepad for notes </p>
+					<h3> Desizion maker </h3>
+					<p> App, that helps you to make desizion. </p>
+
+
+				</div>
+
+			</div>
+
+
+
+<div class="footer">
+			<footer id="main_footer">
+				<p class="copyright">&copy; 2016 Kirill </p>
+				<nav>
+					<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-git" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+				</nav>
+			</footer>
+		</div>
+	</div>
 
 <%= yield %>
 
