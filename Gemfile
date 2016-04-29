@@ -48,3 +48,7 @@ end
 
 gem 'bootstrap-sass'
 gem 'sass-rails', '~> 5.0'
+
+
+ gem 'redcarpet', '~> 3.3', '>= 3.3.4'
+ gem 'pygments.rb', '~> 0.6.3'
