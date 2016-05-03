@@ -209,7 +209,9 @@ input[type="submit"], .button {
 	padding-top: 1000px;
 }
 
-
+.hidden {
+	display : none
+}
 
  @import 'welcome' ;
  @import 'post_projects' ;
