@@ -80,6 +80,7 @@ p, li {
 p, ul, ol {
 	margin: 0 0 1.6em 0 ;
 }
+
 #main_navigation {
 	background: $footer;
 	padding: 2.5em 5%;
@@ -172,7 +173,7 @@ input[type="text"], input[type="email"], input[type="password"], textarea {
 textarea {
 	min-height: 20em;
 }
-input[type="submit"]{
+input[type="submit"], .button {
 	outline:none;
 	background: transparent;
 	border : 2px solid $border;
@@ -185,6 +186,24 @@ input[type="submit"]{
 		border : 2px solid $hightlight;
 		color : $hightlight;
 	}
+}
+
+.project_button {
+	background: $hightlight;
+	color : white;
+		padding: 1em 2em;
+
+			&:hover {
+		border : 2px solid $hightlight;
+		color : white;
+			text-decoration: none;
+	}
+
+}
+
+.button_wrapper {
+	margin: 4em 0 0 0 ;
+	text-align: center;
 }
 #Hello {
 	padding-top: 1000px;
